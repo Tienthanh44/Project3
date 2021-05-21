@@ -46,9 +46,10 @@ int main()
     cout<<"\n Cac so dao nguoc la :";
     for(int i=0; i<5; i++)
     {
-        if(sodaonguoc(a[i])) {}
+        if( sodaonguoc(a[i])) {
 
-        cout<<" "<<a[i];
+        cout<<" \n "<<a[i]<<endl;
+        }
     }
 
 }
